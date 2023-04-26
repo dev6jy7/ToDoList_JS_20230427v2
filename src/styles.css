@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+}
+
+/* 「ToDoを入力」部分 */
+input {
+  width: 343px;
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+/* ToDoの入力エリア */
+.input-area {
+  background-color: peachpuff;
+  width: 500px;
+  height: 30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+/* 未完了のToDoエリア */
+.incomplete-area {
+  background-color: thistle;
+  width: 500px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+/* 完了のToDoエリア */
+.completed-area {
+  background-color: silver;
+  width: 500px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+/* 各ボタン部分 */
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+}
+/* 各ボタンのマウスオーバー部分 */
+button:hover {
+  background-color: gray;
+  color: snow;
+  cursor: pointer;
+}
+
+/* 「未完了・完了のToDo」タイトル部分 */
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: midnightblue;
+}
+/* 未完了・完了ToDoとボタン部分 */
+.todo-item {
+  align-items: center;
+  display: flex;
+  height: 30px;
+  border-bottom: 1px solid ivory;
+}
+/* 未完了・完了ToDoの内容部分 */
+.item-contents {
+  width: 340px;
+}
